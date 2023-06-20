@@ -4,6 +4,7 @@ using Business.Constants.Messages;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Validation;
 using Core.Utilities.Abstract;
+using Core.Utilities.Business;
 using Core.Utilities.Concrete;
 using Core.Utilities.Security.Hashing;
 using Core.Utilities.Security.Jwt;
@@ -52,7 +53,7 @@ namespace Business.Concrete
         public IDataResult<User> Login(UserForLoginDto userForLoginDto)
         {
             var userToCheck = _userService.GetByMail(userForLoginDto.Email);
-            if (userToCheck == null)
+            if (userToCheck.Data == null)
             {
                 return new ErrorDataResult<User>(UserMessages.UserNotFound);
             }
@@ -66,6 +67,22 @@ namespace Business.Concrete
         [ValidationAspect(typeof(RegisterValidator))]
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
+
+            var result = BusinessRules.Run
+                (
+                emailMustBeUnique(userForRegisterDto.Email)
+                );
+
+            if (result.Success)
+            {
+
+            }
+            else
+            {
+                return new ErrorDataResult<User>(result.Message);
+            }
+
+
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
 
@@ -75,7 +92,8 @@ namespace Business.Concrete
                 FirstName = userForRegisterDto.FirstName,
                 LastName = userForRegisterDto.LastName,
                 PasswordHash = passwordHash,
-                PasswordSalt = passwordSalt
+                PasswordSalt = passwordSalt,
+                RoleId = 1
             };
 
             _userService.Add(user);
@@ -95,6 +113,16 @@ namespace Business.Concrete
                 return new SuccessResult(UserMessages.UserAlreadyExists);
             }
             return new ErrorResult(UserMessages.MailAvailable);
+        }
+
+        private IResult emailMustBeUnique(string email)
+        {
+            IDataResult<User> user = _userService.GetByMail(email);
+            if (user is not null)
+            {
+                return new ErrorResult("Bu mail sistemde mevcut");
+            }
+            return new SuccessResult();
         }
     }
 }

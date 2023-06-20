@@ -19,5 +19,7 @@ namespace Business.Constants.Messages
         public static string WrongCode = "Hatalı kod";
         public static string Reminding = "Girdiğiniz mail size ait olmalı";
         public static string MissingInformation = "Eksik bilgi girdiniz transfer gerçekleşmedi";
+
+        public static string UserNameOrPasswordIsIncorrect = "Kullanıcı adı veya parola yanlış.";
     }
 }

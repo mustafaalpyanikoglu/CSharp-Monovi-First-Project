@@ -1,0 +1,70 @@
+﻿@using Core.Utilities.Abstract;
+@using Entities.Concrete;
+@model List<User>
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Kullanıcılar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+@if (ViewData["Error"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewData["Error"].ToString();
+    </div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Success"].ToString();
+    </div>
+}
+<body>
+    <h3>Kullanıcılar</h3>
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Email</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th></th>
+        </tr>
+        @if (Model is not null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Email</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td><a href="/User/Delete/@item.Id" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/User/Update/@item.Id" class="btn btn-warning">Güncelle</a></td>
+                </tr>
+            }
+        }
+        
+    </table>
+
+    <script src="/jquery.min.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+</html>

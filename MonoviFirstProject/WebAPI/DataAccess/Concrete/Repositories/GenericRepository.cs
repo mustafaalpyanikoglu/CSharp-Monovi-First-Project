@@ -30,7 +30,7 @@ namespace DataAccess.Concrete.Repositories
 
         public List<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            return Context.Set<TEntity>().ToList();
         }
 
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter)
