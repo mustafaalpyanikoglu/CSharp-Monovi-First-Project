@@ -2,12 +2,167 @@
 @using Entities.Concrete;
 @model List<User>
 @{
-    ViewBag.Title = "Index";
-    Layout = null;
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@{
+    string color = "";
+}
+@{
+    string colorStatus = "";
+}
 
-<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kullanıcılar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="hold-transition sidebar-mini">
+    @if (ViewData["Error"] != null)
+    {
+        <div id="errorAlert" class="alert alert-danger" role="alert">
+            @ViewData["Error"].ToString();
+        </div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div id="successAlert" class="alert alert-success" role="alert">
+            @TempData["Success"].ToString();
+        </div>
+    }
+
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="card">
+            <div class="card-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3 class="card-title">
+                                Kullanıcı İşlemleri
+                            </h3>
+                        </div>
+                        <div class="card-tools col-6 d-flex justify-content-end">
+                            <!-- Form içeriği -->
+                            <form action="/User/GetByName" method="get" class="d-flex">
+
+                                <input class="form-control me-2" type="search" name="searching" placeholder="Ad" aria-label="Search">
+                                <button class="btn btn-outline-success col-3" type="submit">Ara</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="width: 1%">
+                                #
+                            </th>
+                            <th style="width: 10%">
+                                Email
+                            </th>
+                            <th style="width: 10%">
+                                Ad
+                            </th>
+                            <th style="width: 10%">
+                                Soyad
+                            </th>
+                            <th style="width: 0%" class="text-center">
+                                Rol
+                            </th>
+                            <th style="width: 3%">
+                            </th>
+                            <th style="width: 3%">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Id
+                                </td>
+                                <td>
+                                    <a>
+                                        @item.Email
+                                    </a>
+                                </td>
+                                <td>
+                                    <a>
+                                        @item.FirstName
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="@colorStatus">@item.LastName</span>
+                                </td>
+                                <td class="project-state">
+                                    <span class="@color">@item.RoleId</span>
+                                </td>
+                                <td class="project-actions text-end">
+                                    <a class="btn btn-info btn-sm" href="/User/Update/@item.Id">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        Düzenle
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger btn-sm" href="/User/Delete/@item.Id">
+                                        <i class="fas fa-trash"></i>
+                                        Sil
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Hata mesajını gizleme
+    setTimeout(function () {
+        var errorAlert = document.getElementById('errorAlert');
+        if (errorAlert) {
+            errorAlert.style.display = 'none';
+        }
+    }, 1300);
+
+    // Başarı mesajını gizleme
+    setTimeout(function () {
+        var successAlert = document.getElementById('successAlert');
+        if (successAlert) {
+            successAlert.style.display = 'none';
+        }
+    }, 1300);
+</script>
+</html>
+
+
+@*<!doctype html>
 <html lang="en">
 <head>
     <title>Kullanıcılar</title>
@@ -21,19 +176,59 @@
     <link rel="stylesheet" href="/css/style.css">
 
 </head>
-@if (ViewData["Error"] != null)
-{
-    <div class="alert alert-danger" role="alert">
-        @ViewData["Error"].ToString();
-    </div>
-}
-@if (TempData["Success"] != null)
-{
-    <div class="alert alert-success" role="alert">
-        @TempData["Success"].ToString();
-    </div>
-}
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MONOVI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    @if (ViewData["Error"] != null)
+    {
+        <div id="errorAlert" class="alert alert-danger" role="alert">
+            @ViewData["Error"].ToString();
+        </div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div id="successAlert" class="alert alert-success" role="alert">
+            @TempData["Success"].ToString();
+        </div>
+    }
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                İçerik 1
+            </div>
+            <div class="col-md-6">
+                İçerik 2
+            </div>
+        </div>
+    </div>
+
     <h3>Kullanıcılar</h3>
     <br />
     <table class="table table-bordered">
@@ -58,8 +253,26 @@
                 </tr>
             }
         }
-        
+
     </table>
+    <script>
+        // Hata mesajını gizleme
+        setTimeout(function () {
+            var errorAlert = document.getElementById('errorAlert');
+            if (errorAlert) {
+                errorAlert.style.display = 'none';
+            }
+        }, 1000);
+
+        // Başarı mesajını gizleme
+        setTimeout(function () {
+            var successAlert = document.getElementById('successAlert');
+            if (successAlert) {
+                successAlert.style.display = 'none';
+            }
+        }, 1000);
+    </script>
+
 
     <script src="/jquery.min.js"></script>
     <script src="/js/popper.js"></script>
@@ -67,4 +280,4 @@
     <script src="/js/main.js"></script>
 
 </body>
-</html>
+</html>*@

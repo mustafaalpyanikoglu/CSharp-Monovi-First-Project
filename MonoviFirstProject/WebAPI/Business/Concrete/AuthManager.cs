@@ -68,8 +68,6 @@ namespace Business.Concrete
         [ValidationAspect(typeof(RegisterValidator))]
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
-            ValidationResult validationResult = new ValidationResult();
-            var a= validationResult.Errors;
             var result = BusinessRules.Run
             (
             emailMustBeUnique(userForRegisterDto.Email)
