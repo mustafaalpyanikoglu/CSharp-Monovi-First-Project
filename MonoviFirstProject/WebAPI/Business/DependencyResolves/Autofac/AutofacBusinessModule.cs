@@ -20,10 +20,10 @@ namespace Business.DependencyResolves.Autofac
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
-            builder.RegisterType<RoleManager>().As<IRoleService>().SingleInstance();
-            builder.RegisterType<AuthManager>().As<IAuthService>();
-            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+            //builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
+            //builder.RegisterType<RoleManager>().As<IRoleService>().SingleInstance();
+            //builder.RegisterType<AuthManager>().As<IAuthService>();
+            //builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

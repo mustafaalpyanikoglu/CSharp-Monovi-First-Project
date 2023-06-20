@@ -37,7 +37,9 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="login-wrap py-5">
-                        <div class="img d-flex align-items-center justify-content-center" style="background-image: url(/wwwroot/gg.png);"></div>
+                        <div class="img d-flex align-items-center justify-content-center">
+                            <img src="/login.png" alt="Login Image">
+                        </div>
                         <h3 class="text-center mb-0">Hoşgeldiniz</h3>
                         <p class="text-center">Lütfen bilgilerinizi kutucuklara girin</p>
                         @using (Html.BeginForm("Index", "Login", FormMethod.Post))
@@ -57,6 +59,9 @@
                             </div>*@
                             <div class="form-group">
                                 <button type="submit" class="btn form-control btn-primary rounded submit px-3">Giriş Yap</button>
+                            </div>
+                            <div class="form-group">
+                                    <a class="btn form-control btn-primary rounded submit px-3" href="/Register">Kayıt Ol</a>
                             </div>
                         }
                     </div>

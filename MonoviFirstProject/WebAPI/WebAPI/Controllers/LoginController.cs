@@ -28,7 +28,7 @@ namespace WebAPI.Controllers
             if (result.Success)
             {
                 TempData["Success"] = result.Message;
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "User");
             }
             else
             {

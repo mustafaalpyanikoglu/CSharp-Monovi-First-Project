@@ -51,5 +51,6 @@ namespace DataAccess.Concrete.Repositories
             Context.SaveChanges();
             return entity;
         }
+
     }
 }

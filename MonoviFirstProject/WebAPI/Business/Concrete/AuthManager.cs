@@ -11,6 +11,7 @@ using Core.Utilities.Security.Jwt;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation.Results;
 
 namespace Business.Concrete
 {
@@ -67,22 +68,16 @@ namespace Business.Concrete
         [ValidationAspect(typeof(RegisterValidator))]
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
-
+            ValidationResult validationResult = new ValidationResult();
+            var a= validationResult.Errors;
             var result = BusinessRules.Run
-                (
-                emailMustBeUnique(userForRegisterDto.Email)
-                );
-
-            if (result.Success)
-            {
-
-            }
-            else
+            (
+            emailMustBeUnique(userForRegisterDto.Email)
+            );
+            if (result != null)
             {
                 return new ErrorDataResult<User>(result.Message);
             }
-
-
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
 
@@ -118,7 +113,7 @@ namespace Business.Concrete
         private IResult emailMustBeUnique(string email)
         {
             IDataResult<User> user = _userService.GetByMail(email);
-            if (user is not null)
+            if (user.Data is not null)
             {
                 return new ErrorResult("Bu mail sistemde mevcut");
             }

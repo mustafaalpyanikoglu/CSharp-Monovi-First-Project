@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\style.css" />
-    <None Include="wwwroot\gg.png" />
     <None Include="wwwroot\js\bootstrap.min.js" />
     <None Include="wwwroot\js\jquery.min.js" />
     <None Include="wwwroot\js\main.js" />

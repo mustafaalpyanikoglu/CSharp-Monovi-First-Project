@@ -1,6 +1,4 @@
-﻿using Core.CrossCuttingConcerns.Caching.Microsoft;
-using Core.CrossCuttingConcerns.Caching;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics;
 
@@ -12,7 +10,6 @@ namespace Core
         {
             services.AddMemoryCache();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddSingleton<ICacheManager, MemoryCacheManager>();
             services.AddSingleton<Stopwatch>();
             return services;
         }

@@ -14,7 +14,6 @@ namespace DataAccess
             services.AddDbContext<Context>(options =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("BaseDb"));
-                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 
             services.AddScoped<IUserDal, EfUserDal>();

@@ -23,7 +23,7 @@ namespace Business.Concrete
             return new SuccessResult(UserMessages.UserAdded);
         }
 
-        [SecuredOperation("admin,mudur,personel")]
+        //[SecuredOperation("admin,mudur,personel")]
         public IResult Delete(int userId)
         {
             var dataResult = _userDal.Get(x => x.Id == userId);
@@ -35,7 +35,7 @@ namespace Business.Concrete
             return new ErrorResult(UserMessages.UserNotFound);
         }
 
-        [SecuredOperation("admin,mudur,personel")]
+        //[SecuredOperation("admin,mudur,personel")]
         public IDataResult<List<User>> GetAll()
         {
             var dataResult = _userDal.GetAll();
@@ -46,7 +46,7 @@ namespace Business.Concrete
             return new ErrorDataResult<List<User>>(UserMessages.UserNotFound);
         }
 
-        [SecuredOperation("admin,mudur,personel")]
+        //[SecuredOperation("admin,mudur,personel")]
         public IDataResult<User> GetById(int id)
         {
             User dataResult = _userDal.Get(u => u.Id == id);
