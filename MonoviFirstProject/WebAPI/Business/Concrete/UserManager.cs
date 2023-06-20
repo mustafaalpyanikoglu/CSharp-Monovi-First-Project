@@ -49,7 +49,7 @@ namespace Business.Concrete
         [SecuredOperation("admin,mudur,personel")]
         public IDataResult<User> GetById(int id)
         {
-            var dataResult = _userDal.Get(u => u.Id == id);
+            User dataResult = _userDal.Get(u => u.Id == id);
             if (dataResult != null)
             {
                 return new SuccessDataResult<User>(dataResult, UserMessages.OneUsersList);
@@ -59,7 +59,7 @@ namespace Business.Concrete
 
         public IDataResult<User> GetByMail(string email)
         {
-            var dataResult = _userDal.Get(u => u.Email == email);
+            User dataResult = _userDal.Get(u => u.Email == email);
             if (dataResult != null)
             {
                 return new SuccessDataResult<User>(dataResult, UserMessages.OneUsersList);
