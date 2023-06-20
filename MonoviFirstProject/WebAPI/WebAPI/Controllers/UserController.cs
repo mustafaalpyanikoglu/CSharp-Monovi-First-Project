@@ -71,5 +71,11 @@ namespace WebAPI.Controllers
             return RedirectToAction("Index");
         }
 
+         [HttpGet]
+        public ActionResult GetByName(string searching)
+        {
+            IDataResult<List<User>> result = _userService.GetByName(searching);
+            return View(result.Data);
+        }
     }
 }

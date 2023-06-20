@@ -374,11 +374,6 @@ C:\Users\malpy\Desktop\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Web
 C:\Users\malpy\Desktop\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\package.json
 C:\Users\malpy\Desktop\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\daterangepicker\bower.json
 C:\Users\malpy\Desktop\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\raphael\bower.json
-C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\composer.json
-C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\package-lock.json
-C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\package.json
-C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\daterangepicker\bower.json
-C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\raphael\bower.json
 C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\appsettings.json
 C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
@@ -655,3 +650,8 @@ C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProje
 C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\composer.json
+C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\package-lock.json
+C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\package.json
+C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\daterangepicker\bower.json
+C:\Users\malpy\Desktop\Yeni klasör\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\WebAPI\bin\Debug\net6.0\AdminLTE-3.0.4\plugins\raphael\bower.json

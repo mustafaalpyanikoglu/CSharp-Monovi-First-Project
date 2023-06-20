@@ -5,6 +5,7 @@ using Core.Utilities.Abstract;
 using Core.Utilities.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Microsoft.EntityFrameworkCore;
 
 namespace Business.Concrete
 {
@@ -65,6 +66,26 @@ namespace Business.Concrete
                 return new SuccessDataResult<User>(dataResult, UserMessages.OneUsersList);
             }
             return new ErrorDataResult<User>(UserMessages.UserNotFound);
+        }
+
+        public IDataResult<List<User>> GetByName(string firstName)
+        {
+            List<User> dataResult = _userDal.GetAll(c => EF.Functions.Like(c.FirstName, $"%{firstName}%"))
+               .Select(c => new User
+               {
+                   Id = c.Id,
+                   Email = c.Email,
+                   FirstName = c.FirstName,
+                   LastName = c.LastName,
+                   PasswordHash = c.PasswordHash,
+                   PasswordSalt = c.PasswordSalt,
+                   RoleId = c.RoleId,
+               }).ToList();
+            if (dataResult != null)
+            {
+                return new SuccessDataResult<List<User>>(dataResult, UserMessages.OneUsersList);
+            }
+            return new ErrorDataResult<List<User>>(UserMessages.UserNotFound);
         }
 
         public IResult Update(User user)
