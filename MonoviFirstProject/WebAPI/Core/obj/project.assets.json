@@ -8028,11 +8028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Core\\obj\\",
+      "outputPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8049,8 +8049,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj"
+            "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj"
             }
           }
         }

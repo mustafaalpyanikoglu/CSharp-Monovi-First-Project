@@ -1,7 +1,5 @@
 ﻿using Business.Abstract;
-using Business.Constants.Messages;
 using Core.Utilities.Abstract;
-using Core.Utilities.Concrete;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,22 +15,6 @@ namespace WebAPI.Controllers
         }
 
         public IActionResult Index()
-        {
-            IDataResult<List<User>> result = _userService.GetAll();
-            if (result.Success)
-            {
-                TempData["Success"] = result.Message;
-                return View(result.Data);
-            }
-            else
-            {
-                ViewData["Error"] = result.Message;
-                return View();
-            }
-        }
-
-        [HttpGet]
-        public ActionResult GetUserList()
         {
             IDataResult<List<User>> result = _userService.GetAll();
             if (result.Success)
@@ -71,6 +53,13 @@ namespace WebAPI.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        public PartialViewResult SearchUsers(string searchText)
+        {
+            IDataResult<List<User>> result = _userService.GetByName(searchText);
+            return PartialView("_GridView", result.Data);
+        }
+
          [HttpGet]
         public ActionResult GetByName(string searching)
         {
@@ -79,3 +68,4 @@ namespace WebAPI.Controllers
         }
     }
 }
+

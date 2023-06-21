@@ -3,6 +3,8 @@ using Business.Constants.Messages;
 using Core.Utilities.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -19,6 +21,12 @@ namespace WebAPI.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public ActionResult LogOut()
+        {
+            //Session.Abandon();
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Login");
         }
 
         [HttpPost]
