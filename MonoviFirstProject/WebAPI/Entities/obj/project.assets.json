@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\malpy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\malpy\\AppData\\Roaming\\NuGet\\NuGet.Config",
