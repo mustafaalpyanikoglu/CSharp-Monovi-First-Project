@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bBimfO0E5WDcrsZLGmJOW51ZbfXh1C3tnycz05mLgAPWVK2HKRos/sVPYr/HmbcfoWt7YSx4I0U1llmnqXf59Q==",
+  "dgSpecHash": "+myXSpPw0AjBWp7dEWswXostcVd0Ayy2Bf4Th56hHMpIVqfdSIbCmm3QsWw4/gOB3v/72oIdTvNTs8XlZkQsoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (2)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,7 @@
     "C:\\Users\\malpy\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\jquery\\3.7.0\\jquery.3.7.0.nupkg.sha512",
+    "C:\\Users\\malpy\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
