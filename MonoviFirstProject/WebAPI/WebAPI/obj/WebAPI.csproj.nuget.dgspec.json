@@ -411,6 +411,10 @@
             "jQuery": {
               "target": "Package",
               "version": "[3.7.0, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
             }
           },
           "imports": [

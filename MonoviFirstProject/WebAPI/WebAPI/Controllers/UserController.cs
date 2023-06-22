@@ -1,7 +1,10 @@
 ﻿using Business.Abstract;
 using Core.Utilities.Abstract;
+using Core.Utilities.Concrete;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Protocol;
 
 namespace WebAPI.Controllers
 {
@@ -65,6 +68,47 @@ namespace WebAPI.Controllers
         {
             IDataResult<List<User>> result = _userService.GetByName(searching);
             return View(result.Data);
+        }
+
+        [HttpGet]
+        public ActionResult GetList()
+        {
+            //IDataResult<List<User>> result = _userService.GetAll();
+            //return View(result.Data.ToJson());
+
+            IDataResult<List<User>> result = _userService.GetAll();
+            List<UserDto> users = new List<UserDto>();
+            foreach (User user in result.Data)
+            {
+                users.Add(new UserDto
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    RoleId = user.RoleId,
+                });
+            }
+            var a = Json(new { data = users }); 
+            return Json(new { data = users });
+        }
+
+        public ActionResult DatatableJS()
+        {
+            IDataResult<List<User>> result = _userService.GetAll();
+            List<UserDto> users = new List<UserDto>();
+            foreach (User user in result.Data)
+            {
+                users.Add(new UserDto
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    RoleId = user.RoleId,
+                });
+            }
+            return View(users);
         }
     }
 }
