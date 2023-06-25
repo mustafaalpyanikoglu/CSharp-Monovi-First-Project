@@ -58,3 +58,18 @@ C:\Users\malpy\Desktop\Yeni klasör (2)\CSharp-Monovi-First-Project\MonoviFirstP
 C:\Users\malpy\Desktop\Yeni klasör (2)\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\malpy\Desktop\Yeni klasör (2)\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.pdb
 C:\Users\malpy\Desktop\Yeni klasör (2)\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\bin\Debug\net6.0\Core.dll
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\bin\Debug\net6.0\Entities.dll
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\bin\Debug\net6.0\Entities.pdb
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.csproj.CopyComplete
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.dll
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\malpy\Desktop\Monovi Staj\CSharp-Monovi-First-Project\MonoviFirstProject\WebAPI\Core\obj\Debug\net6.0\ref\Core.dll
