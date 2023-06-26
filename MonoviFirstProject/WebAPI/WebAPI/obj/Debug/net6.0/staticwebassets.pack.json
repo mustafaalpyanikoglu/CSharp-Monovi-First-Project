@@ -1161,6 +1161,10 @@
       "PackagePath": "staticwebassets\\monovi.jpg"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\monovi.mp4",
+      "PackagePath": "staticwebassets\\monovi.mp4"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\plugins\\.npmignore",
       "PackagePath": "staticwebassets\\plugins\\.npmignore"
     },
