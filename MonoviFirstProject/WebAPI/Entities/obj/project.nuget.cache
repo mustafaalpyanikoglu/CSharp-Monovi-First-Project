@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zv+IttufMIiYllmaHc8p0DMMrg5G/e1vLH5nIaG1mJbQXS/khTbu2vQvpWfEugCdIGfbbOCNXyCL6f91gmsuFQ==",
+  "dgSpecHash": "2tXMovGDCfracQELAHqS3cjBKDjLoqVqMfdAV5bmEPjczJsVx+L8kPYUfSRNhgjlip19vbHteW2+e0YWUu7qRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
