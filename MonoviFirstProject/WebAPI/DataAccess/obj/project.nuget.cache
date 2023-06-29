@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z54fY5nrE9PZRjktcxvBwCq9/0gawz3XGr6XFzkTmw2YPvLICFaMMixXm4zwuCh9pByp0FWiYCrilFfFiOLuSw==",
+  "dgSpecHash": "cU6Jh6zVBcbZDtrvy+TMHVs2X1iiJ2IoQCII615Z2U5xgPcgAXKEl+egxFr82/Pga1WlFrS2NRRBLktx/qdOXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malpy\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
