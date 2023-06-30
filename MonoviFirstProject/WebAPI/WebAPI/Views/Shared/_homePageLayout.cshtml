@@ -57,13 +57,15 @@
             position: relative;
         }
 
+
+
         .louis_george_caferegular {
-            font-family: 'louis_george_caferegular', sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 70px;
-            line-height: 84px;
-            color: #ffffff;
+            font-family: louis_george_caferegular !important, sans-serif!important;
+            font-style: normal !important;
+            font-weight: 500;
+            font-size: 36px ;
+            line-height: 51px;
+            color: #222222 !important;
         }
 
         .mega__width--fullscreen{
@@ -264,7 +266,7 @@
             font-family: louis_george_caferegular;
         }
 
-        .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, .col-7{
+        .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, .col-7, .col-lg-4, .col-sm-6{
             position: relative;
             width: 100%;
             padding-right: 7.5px;
@@ -446,11 +448,11 @@
         }
 
         .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-            width: 100%;
+            width: 100%!important;
             padding-right: 15px;
             padding-left: 15px;
-            margin-right: auto;
-            margin-left: auto;
+            margin-right: auto!important;
+            margin-left: auto!important;
         }
 
        .h3, h3, ul {
@@ -632,11 +634,11 @@
         }
 
         .h-25{
-            height: 25px;
+            height: 25px!important;
         }
 
         .h-40{
-            height: 40px;
+            height: 40px!important;
         }
 
         img{
@@ -647,20 +649,180 @@
             overflow: hidden;
         }
 
-        .louis_george_caferegular {
-            font-family: louis_george_caferegular!important, sans-serif!important;
-            font-style: normal!important;
-            font-weight: 500!important;
-            font-size: 36px!important;
-            line-height: 51px!important;
-            color: #222222!important;
+
+        .swiper-container-fade .swiper-slide-active, .swiper-container-fade .swiper-slide-active .swiper-slide-active {
+            pointer-events: auto;
         }
+
+        .hero-content-2{
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+            z-index: 1;
+        }
+
+        .swiper-slide-active .hero-content-2{
+            animation-name: fadeInUp;
+        }
+
+        @@keyframes{
+            0% {
+                opacity: 0;
+                transform: translate3d(0,100%,0);
+            }
+
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .hero-business .hero-bottom-content {
+            bottom: 80px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            padding: 0 15px;
+        }
+
+        .px-150{
+            padding-left: 150px!important;
+            padding-right: 150px!important;
+        }
+
+        .py-120{
+            padding-top: 120px!important;
+            padding-bottom: 120px!important;
+        }
+
+        .bg-image--17{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+        }
+
+        h3.heading-h3.font-large {
+            font-size: 40px;
+        }
+
+        .title-separator.color-red{
+            background: #0038e3;
+        }
+
+        .title-separator {
+            content: "";
+            display: inline-block;
+            height: 3px;
+            border-radius: 3px;
+        }
+
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+        
+
+        .title-separator.w--80 {
+            width: 80px!important;
+        }
+
+        .bg-color-FFF6F7{
+            background-color: #FFF6F7;
+        }
+
+        .w--80{
+            width: 80px!important;
+        }
+
+        .icon-box.with-padding .inner {
+            padding: 60px 35px 64px;
+        }
+
+        .icon-box .inner {
+            position:relative;
+            width:auto;
+            padding: 60px 35px 64px;
+            background: #fff;
+            bottom: 0px;
+            z-index: 2;
+            transition: all .3s;
+            transition-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+        }
+
+        .icon-box .inner:hover{
+            bottom: 10px;
+        }
+
+        .icon-box .inner .content a.icon-btn {
+            color: #222;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+        }  
+
+
+        .mb-18{
+            margin-bottom: 18px!important;
+        }
+
+        h5.heading-h5{
+            font-size: 18px!important;
+        }
+
+        h5 {
+            display: block;
+            font-size: 0.83em;
+            margin-block-start: 1.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .mt-46{
+            margin-top: 46px;
+        }
+
+        .py-5{
+            padding-top: 5px!important;
+            padding-bottom: 5px!important;
+        }
+
+        .pl-14{
+            padding-left: 14px!important;
+        }
+
+        a {
+            color: #ca3c08;
+            text-decoration: none;
+        }
+
+        .icon-box .inner .content a.icon-btn.color-red:hover, .icon-box .inner .content a.icon-btn.color-red i {
+            color: rgb(240, 38, 63);
+        }
+
+        .icon-box .inner .content a.icon-btn span {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        a:webkit-any {
+            color: -webkit-link;
+            cursor: pointer;
+        }
+
+        .cursor-pointer{
+            cursor: pointer!important;
+        }
+            
+
     </style>
 
 </head> 
 <body>
     @RenderBody()
-    <!-- Navbar -->
+    <!-- Navbar 
     <header class="pt--15 header-fixed-width header-transparent header-default">
         <div class="container-fluid">
             <div class="row">
@@ -1060,28 +1222,29 @@
             </div>
         </div>
         
-    </header>
+    </header>-->
     <!--Container-->
     <div class="main-container">
         <div class="slider-area hero-business position-relative">
             <div class="number-dot">
-                <div class="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-container swiper-slide-active swiper-container-fade swiper-container-initialized swiper-container-horizontal">
                     <div class="swiper-wrapper">
                         <div class="hero-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-prev"
                              style="width: 1519px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                            <video muted="muted" src="/monovi.mp4" autoplay="autoplay" id="hmbannerss12" style="width:100%;height:100%;position:absolute;object-fit:cover;">
+                            <video muted="muted" src="/monovi.mp4" autoplay="autoplay" id="hmbannerss12" style="width:100%;height:100%;position:absolute;object-fit:cover; display:inline-block;">
                             </video>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col px-15">
                                         <div class="hero-content-2">
-                                            <h3 style="text-align:center;background-color:rgba(255,0,0,0.1);" class="louis_george_caferegular">
+                                            <h3 style="text-align:center;background-color:rgba(255,0,0,0.1); color:#fff!important; font-weight: 700!important; font-size:70px!important; line-height: 1.2!important; font-style: normal;" class="louis_george_caferegular">
                                                 Delivering a great business value to achieve outstanding business results for enterprises
                                             </h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="hero-bottom-contents"></div>
                         </div>
                         
                     </div>
@@ -1116,7 +1279,7 @@
                     </div>
                     <div class="col-5 px-15 position-relative flex-grow-1">
                         <div class="video-content move-up wow">
-                            <h3 class="heading heading-h3 line-height-1-42 louis_george_caferegular">
+                            <h3 class="heading heading-h3 line-height-1-42 louis_george_caferegular" style="font-size: 16px;">
                                 Transform your processes <br> &amp; modernize 
                             </h3> 
                             <div class="bkseparator--25 h-25">
@@ -1125,6 +1288,174 @@
                                 Digitize your business processes and modernize IT to prepare your company to the future. Rethink your business applications, IT systems and mission-critical processes. Make the right investments at the right time with correct IT partner. Monovi delivers the IT &amp; business services you need for the business outcomes you want across your entire IT estate. 
                             </p> 
                             <div class="bkseparator--40 h-40">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brook-icon-boxes-area py-120 bg-image--17 bg-color-FFF6F7">
+            <div class="container px-15">
+                <div class="row">
+                    <div class="col-lg-12 px-15">
+                        <div class="brook-section-title text-center">
+                            <h3 class="heading heading-h3 font-large louis_george_caferegular" style="font-size:40px!important; line-height: 49px!important;">EXPLORE OUR SERVICES</h3>
+                            <div class="h-25"></div>
+                            <div class="title-separator color-red" style="line-height: 0; width: 80px!important; text-align:center!important;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-40">
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/compliance.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Track&Trace Compliance Support</h5>
+                                    <p class="mb-15" style="height: 220px;">At Monovi, we offer Track&amp;Trace solutions &amp; managed services for regulated industries, especially in tobacco, transportation, pharmaceuticals, food and beverage industries, that meet all these regulatory compliance traceability needs. </p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/applicationsupport.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Application Support Services & Modernization</h5>
+                                    <p class="mb-15" style="height: 220px;">We help customers to modernize their enterprise, helping them to move few steps ahead in the competition and get ready for the future. Monovi brings together business applications, platforms and cloud solutions to enhance the way of working as well as experience across all pain points, delivering excellent business values.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/IToutsourcing.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Managed IT Outsourcing</h5>
+                                    <p class="mb-15" style="height: 220px;">Monovi is an expert in managed business applications, reducing the management cost of our customers’ complex applications running on any environments. We drive our customers' shift of IT investment from traditional ways of working to spend budgets more to innovation through an ROI-focused managed applications services.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/bizOps-outsourcing.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Business Process Outsourcing</h5>
+                                    <p class="mb-15" style="height: 220px;">Our business process services use the power of technology with human ingenuity of skilled people to handle everything from daily task-based processes to the more complex data-driven practices as well as projects that are essential for the future of enterprises.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/softwaredevelopment.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Software Development & Maintenance</h5>
+                                    <p class="mb-15" style="height: 220px;">Our software engineering services cover the entire software product delivery life cycle, from the requirements gathering & analysis, and finally the deployment and go-live. Our product development lifecycle ensures faster time-to-market, by using modern software product engineering technology we have.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/Consultancy2.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Consultancy</h5>
+                                    <p class="mb-15" style="height: 220px;">Monovi's Consulting practice brings technology expertise with best in class experts that help business leaders respond to the challanges in their organizational transformation, market competition by driving digital-first transformation</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/dataanalytics.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Data & Analytics</h5>
+                                    <p class="mb-15" style="height: 220px;">Monovi's data analytics services can help your organization to facilitate growth and gaining new competitive advantages. We identify your unique requirements, business use cases and create data & analytics solutions using the power of cloud and your business priorities with the right talent and technologies to suit your needs.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/digitalfactory.png" alt="Track&Trace Compliance Support" style="height: 90px;"/>
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Digital Factory & Supply Chain</h5>
+                                    <p class="mb-15" style="height: 220px;">We help organizations for rapid digitization of their supply chain landscape, to catch up to this digital transformation to remain competitive.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow move-up px-15">
+                        <div class="icon-box text-center no-border with-padding mt-40">
+                            <div class="inner" style="height: 600px;">
+                                <div class="icon text-center">
+                                    <img src="/remoteITteams.png" alt="Track&Trace Compliance Support" style="height: 90px;" />
+                                </div>
+                                <div class="content text-center">
+                                    <h5 class="heading heading-h5 louis_george_caferegular mb-18">Remote IT Teams</h5>
+                                    <p class="mb-15" style="height: 220px;">We understand that delivering high-quality software and mobile applications is essential to the success of your business. We take a rigorous and meticulous approach to quality assurance. Our team of experienced professionals leverages their expertise in the latest tools and technologies to ensure your product meets the highest quality standards such as ISTQB, TMap.</p>
+                                    <a class="icon-btn color-red mt-46 d-inline-block cursor-pointer">
+                                        <span class="py-5">More Details</span>
+                                        <i class="fa fa-arrow-right pl-14"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
