@@ -128,6 +128,14 @@
     <None Include="wwwroot\js\jquery.min.js" />
     <None Include="wwwroot\js\main.js" />
     <None Include="wwwroot\js\popper.js" />
+    <None Include="wwwroot\slick\config.rb" />
+    <None Include="wwwroot\slick\fonts\slick.svg" />
+    <None Include="wwwroot\slick\slick-theme.less" />
+    <None Include="wwwroot\slick\slick-theme.scss" />
+    <None Include="wwwroot\slick\slick.js" />
+    <None Include="wwwroot\slick\slick.less" />
+    <None Include="wwwroot\slick\slick.min.js" />
+    <None Include="wwwroot\slick\slick.scss" />
   </ItemGroup>
 
   <ItemGroup>
