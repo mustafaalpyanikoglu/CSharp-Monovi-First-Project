@@ -270,7 +270,9 @@
             font-family: louis_george_caferegular;
         }
 
-        .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, .col-7, .col-lg-4, .col-sm-6, .col-lg-12{
+        .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, .col-7, .col-lg-4, .col-sm-6, .col-lg-12,
+        .col-xl-12, .col-lg-9, .col-12, .col-lg-6, .col-lg-12
+        {
             position: relative;
             width: 100%;
             padding-right: 7.5px;
@@ -674,6 +676,10 @@
             overflow: hidden;
         }
 
+        svg{
+            vertical-align: middle;
+        }
+
 
         .swiper-container-fade .swiper-slide-active, .swiper-container-fade .swiper-slide-active .swiper-slide-active {
             pointer-events: auto;
@@ -1018,6 +1024,294 @@
         }
         img {
             max-width: 100%;
+        }
+
+        .mb--12{
+            margin-bottom: -12px;
+        }
+
+        .overflow-x-hidden{
+            overflow-x: hidden;
+        }
+
+        .curve-shape svg[data-v-346eb0d3] {
+            width: 200%;
+            position: relative;
+            animation: move-left-346eb0d3 6s linear infinite;
+        }
+
+        @@keyframes move-left-346eb0d3{
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: -100%;
+            }
+        }
+
+        .bg-f5f5f5{
+            background: #f5f5f5;
+        }
+
+        .pb-150{
+            padding-bottom: 150px!important;
+        }
+
+        .mt-8{
+            margin-top: 8px!important;
+        }
+        
+        .mb-30{
+            margin-bottom: 30px!important;
+        }
+
+        .mb-0{
+            margin-bottom: 0!important;
+        }
+
+        .form-style--1 .input-box span.form-icon {
+            left: 0;
+            right: auto;
+            top: 14px;
+            z-index: 2;
+            font-size: 20px;
+            color: #888;
+            position: absolute;
+        }
+
+        .form-style--1 .input-box {
+            position: relative;
+            margin-bottom: 30px;
+            z-index: 1;
+        }
+
+        .fa, .far, .fas {
+            font-family: Font Awesome\ 5 Free;
+        }
+
+        .far {
+            font-weight: 400;
+        }
+
+        .fa, .fab, .fal, .far, .fas {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            display: inline-block;
+            font-style: normal;
+            font-feature-settings: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            line-height: 1;
+        }
+
+        .form-style--1 .input-box input, .form-style--1 .input-box textarea {
+            border: 0;
+            border-bottom: 2px solid #ddd;
+            background: none;
+            color: #777!important;
+            transition: all .3s cubic-bezier(1,.03,0,.99);
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .form-style--1 .input-box input {
+            padding-left: 35px!important;
+            padding-right: 35px!important;
+            height: 50px!important;
+        }
+
+        .contact-form input {
+            color: #777;
+            background-color: #fff;
+            width: 100%;
+            outline: none;
+            border: 1px solid #eee;
+            border-radius: 0;
+            padding: 3px 20px;
+            height: 62px;
+        }
+
+        .contact-form textarea {
+            color: #777;
+            background-color: #fff;
+            height: 150px;
+            width: 100%;
+            outline: none;
+            border: 1px solid #eee;
+            border-radius: 0;
+            padding: 12px 20px 3px;
+            max-width: 100%;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+        }
+
+        button, input, select, textarea {
+            font-size: 100%;
+            margin: 0;
+            max-width: 100%;
+            vertical-align: baseline;
+        }
+
+        textarea {
+            overflow: auto;
+            vertical-align: top;
+            resize: vertical;
+            line-height: inherit;
+        }
+
+        .form-style--1 .input-box:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    position: absolute;
+    left: auto;
+    right: 0;
+    background-color: #0038e3;
+    transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+}
+
+        button, input {
+            overflow: visible;
+        }
+
+        input:not([type="range"]):not([type="color"]) {
+            writing-mode: horizontal-tb !important;
+        }
+
+        .fa-user:before {
+            content: "\f007";
+        }
+        
+        .form-style--1 .input-box:after {
+            content: "";
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            position: absolute;
+            left: auto;
+            right: 0;
+            background-color: #0038e3;
+            transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+        }
+
+        .form-style--1 .input-box:hover:after {
+            width: 100%;
+            left: 0;
+            right: auto;
+        }
+
+        .pt-12{
+            padding-top: 12px!important;
+        }
+
+        .pb-3{
+            padding-bottom: 3px!important;
+        }
+
+        .pr-20{
+            padding-right: 20px!important;
+        }
+
+        .pl-0{
+            padding-left: 0!important;
+        }
+
+        .form-style--1 .input-box textarea {
+            height: 120px;
+        }
+        
+        .mt-19{
+            margin-top: 19px!important;
+        }
+
+        .form-style--1 .form-action .form-description {
+            flex-grow: 1;
+            line-height: 1.63!important;
+            margin-right: 110px!important;
+            color: #333!important;
+            font-weight: 700!important;
+            font-size: 16px!important;
+            font-family: louis_george_caferegular;
+        }
+
+        .contact-form input[type=checkbox] {
+            width: auto;
+            height: auto;
+            background-color: transparent;
+            border: 1px solid #999;
+            border-radius: 0;
+            line-height: 23px;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #151515;
+        }
+
+        input[type="checkbox" i] {
+            background-color: initial;
+            cursor: default;
+            appearance: auto;
+            box-sizing: border-box;
+            margin: 3px 3px 3px 4px;
+            padding: initial;
+            border: initial;
+        }
+
+        .mr-110{
+            margin-right: 110px!important;
+        }
+
+        input:not([type="range"]):not([type="color"]) {
+            writing-mode: horizontal-tb !important;
+        }
+
+        input[type=checkbox], input[type=radio] {
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        .pl-10{
+            padding-left:10px!important;
+        }
+
+        .contact-form label {
+            position: relative;
+            line-height: 20px!important;
+            font-size: 14px!important;
+            font-weight: 400!important;
+            color: #252525!important;
+        }
+
+        .form-style--1 .form-action .form-submit input {
+            padding: 0 41px;
+            height: 55px;
+            line-height: 53px;
+            outline: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 0;
+            cursor: pointer;
+            box-shadow: 0 10px 20px rgba(0,0,0,.07);
+            font-family: Poppins,sans-serif;
+            color: #fff;
+            border: 1px solid #0038e3;
+            background-color: #0038e3;
+            transition: all .3s cubic-bezier(1,.03,0,.99);
+        }
+
+        body.template-color-1 .contact-form input[type=submit], body.template-color-1 .contact-form textarea[type=submit] {
+            border-color: #0038e3;
+            background-color: #0038e3;
+        }
+
+        .form-submit input[type="submit"]:hover {
+            position: relative;
+            bottom: 3px;
+        }
+        
+        .form-style--1 .form-action .form-submit {
+            flex-shrink: 0;
         }
     </style>
 
@@ -1426,6 +1720,7 @@
         
     </header>
     -->
+
     <!-- Navbar -->
     <!--Container-->
     <div class="main-container">
@@ -1805,6 +2100,70 @@
                 </div>
             </div>
         </div>
+        <div class="curve-shape mb--12 overflow-x-hidden">
+            <svg x="0px" y="0px" viewBox="0 0 3841 120" xml:space="preserve" style="overflow:scroll; enable-background:new 0 0 3841 120;" data-v-346eb0d3>
+            <path d="M3360.5,97.739c-242,0-480-48.375-480-48.375
+                    S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
+                    S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z" style="fill:#f5f5f5;stroke-miterlimit:10;" data-v-346eb0d3=""></path>
+            </svg>
+        </div>
+        <div class="contact-form-inner bg-f5f5f5">
+            <div class="container">
+                <div class="brook-title">
+                    <h4 class="heading heading-h4 louis_george_caferegular" style="font-size: 22px!important; line-height:28px!important;">
+                        Send us a message
+                    </h4>
+                </div>
+            </div>
+            <div class="bk-contact-area pb-150 bg-f5f5f5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-9 col-12 px-15">
+                            <div class="contact-form mt-8">
+                                <form class="form-style--1 wow move-up m-0">
+                                    <div class="row">
+                                        <div class="col-lg-6 formCol mb-30 px-15">
+                                            <div class="input-box mb-0">
+                                                <span class="form-icon far fa-user"></span>
+                                                <input class="louis_george_caferegular" type="text" placeholder="Name *" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 formCol mb-30 px-15">
+                                            <div class="input-box mb-0">
+                                                <span class="form-icon far fa-envelope"></span>
+                                                <input class="louis_george_caferegular" type="text" placeholder="Email *" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 px-15">
+                                            <div class="input-box mb-0">
+                                                <textarea class="louis_george_caferegular pt-12 pb-3 pr-20 pl-0" placeholder="Your message *"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 px-15">
+                                            <div class="form-action mt-19 d-flex">
+                                                <div class="form-description mr-110">
+                                                    <div class="check-box">
+                                                        <input class="m-0" type="checkbox" name="check" id="check"> 
+                                                        <label class="mb-0 pl-10 d-inline-block" for="check">
+                                                            I agree this terms and condition.
+                                                            <br>I’m available for commissions and collaborations, and i’m 
+                                                            <br> excited to hear from you about new projects
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-submit">
+                                                    <input type="submit" value="Send message"> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Container-->
 
@@ -1883,6 +2242,35 @@
                 slidesToScroll: totalSlides, // Set slidesToScroll to the total number of slides
                 dots: false
             });
+        });
+    </script>
+
+    <script>
+        var formContainer = document.querySelector(".form-style--1");
+        var inputs = formContainer.querySelectorAll("input");
+        var textarea = formContainer.querySelector("textarea");
+
+        document.addEventListener("click", function (event) {
+            var target = event.target;
+
+            if (!formContainer.contains(target) || (target.tagName !== "INPUT" && target.tagName !== "TEXTAREA")) {
+                inputs.forEach(function (input) {
+                    input.style.background = "#F5F5F5";
+                });
+                textarea.style.background = "#F5F5F5";
+            }
+        });
+
+        formContainer.addEventListener("click", function (event) {
+            var target = event.target;
+
+            if (target.matches("input") || target.matches("textarea")) {
+                inputs.forEach(function (input) {
+                    input.style.background = "#F5F5F5";
+                });
+                textarea.style.background = "#F5F5F5";
+                target.style.background = "white";
+            }
         });
     </script>
 

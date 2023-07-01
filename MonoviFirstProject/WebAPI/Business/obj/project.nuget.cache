@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rZT5Wi11HA8CtAfY7h92TXCW4bsxgJirerT6/0yofCtST+TFbMbJc7z9tp/yigVwadofENJVCXeOHAbxh4SZAA==",
+  "dgSpecHash": "OPg6dLZB4iWhay/q2yRqk+vcMEpL3yGRiSroDkB/6Zy4Mh+0c2o/31xyPnS/yJb+ANMMjothuPFNm45XWwjsvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malpy\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\malpy\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
