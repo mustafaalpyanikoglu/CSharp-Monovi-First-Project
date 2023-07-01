@@ -181,6 +181,14 @@
       "PackagePath": "staticwebassets\\WebAPI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\1.jpg",
+      "PackagePath": "staticwebassets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\2.jpg",
+      "PackagePath": "staticwebassets\\2.jpg"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\CertificateDownload.pdf",
       "PackagePath": "staticwebassets\\CertificateDownload.pdf"
     },
@@ -191,6 +199,10 @@
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\IToutsourcing.png",
       "PackagePath": "staticwebassets\\IToutsourcing.png"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\Zilina_zapalkaren.jpg",
+      "PackagePath": "staticwebassets\\Zilina_zapalkaren.jpg"
     },
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\applicationsupport.png",
@@ -931,6 +943,10 @@
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\download.jpg",
       "PackagePath": "staticwebassets\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\fabrika.jpg",
+      "PackagePath": "staticwebassets\\fabrika.jpg"
     },
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\favicon.ico",
@@ -7999,6 +8015,62 @@
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\remoteITteams.png",
       "PackagePath": "staticwebassets\\remoteITteams.png"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\slick\\slick.scss"
     },
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\softwaredevelopment.png",
