@@ -8101,6 +8101,10 @@
       "PackagePath": "staticwebassets\\softwaredevelopment.png"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\text2.png",
+      "PackagePath": "staticwebassets\\text2.png"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Monovi Staj\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\tim.png",
       "PackagePath": "staticwebassets\\tim.png"
     },

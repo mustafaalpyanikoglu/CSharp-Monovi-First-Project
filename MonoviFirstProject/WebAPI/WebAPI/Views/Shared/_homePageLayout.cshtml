@@ -270,8 +270,9 @@
             font-family: louis_george_caferegular;
         }
 
-        .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, .col-7, .col-lg-4, .col-sm-6, .col-lg-12,
-        .col-xl-12, .col-lg-9, .col-12, .col-lg-6, .col-lg-12
+        .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, 
+        .col-7, .col-lg-4, .col-sm-6, .col-lg-12,
+        .col-xl-12, .col-lg-9, .col-12, .col-lg-6, .col-lg-12, .col-sm-12
         {
             position: relative;
             width: 100%;
@@ -1152,6 +1153,10 @@
             vertical-align: baseline;
         }
 
+        button, select {
+            text-transform: none;
+        }
+
         textarea {
             overflow: auto;
             vertical-align: top;
@@ -1160,16 +1165,16 @@
         }
 
         .form-style--1 .input-box:after {
-    content: "";
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    position: absolute;
-    left: auto;
-    right: 0;
-    background-color: #0038e3;
-    transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
-}
+            content: "";
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            position: absolute;
+            left: auto;
+            right: 0;
+            background-color: #0038e3;
+            transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+        }
 
         button, input {
             overflow: visible;
@@ -1312,6 +1317,91 @@
         
         .form-style--1 .form-action .form-submit {
             flex-shrink: 0;
+        }
+
+        .bg-color-f8a440{
+            background: #f8a440!important;
+        }
+
+        .py-70{
+            padding-top: 70px!important;
+            padding-bottom: 70px!important;
+        }
+
+        .bg-as-text2 {
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+
+        .align-items-center {
+            align-items: center !important;
+        }
+
+        .color-f8a440{
+            color:#f8a440!important;
+        }
+
+        input:not([type="range"]):not([type="color"]) {
+            writing-mode: horizontal-tb !important;
+        }
+
+        [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+            cursor: pointer;
+        }
+
+        [type=button], [type=reset], [type=submit], button {
+            -webkit-appearance: button;
+        }
+
+        body .contact-form.contact-form--4 .input-box button {
+            color: #0038e3;
+        }
+
+        .contact-form.contact-form--4 .input-box button {
+            color: #f8a440;
+            width: auto;
+            height: 100%;
+            padding: 0 22px;
+        }
+
+        .contact-form.contact-form--4 .input-box button {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            color: #0038e3;
+            border: 0!important;
+            background: transparent;
+            height: 100%;
+            transition: .4s;
+        }
+
+        button, input {
+            line-height: normal;
+        }
+
+        .text-md-right.contact-form.contact-form--4.color-f8a440 form button:hover {
+            color: white;
+            background-color: #0038e3;
+        }
+
+        .py-3{
+            padding-top: 3px!important;
+            padding-bottom: 3px!important;
+        }
+
+        .pr-129{
+            padding-right: 129px!important;
+        }
+
+        .bg-style-text2 {
+            background-image: url('/wwwroot/text2.png') !important;
+        }
+
+        .bg-as-text2 {
+            background-repeat: no-repeat;
+            background-position: 50%;
         }
     </style>
 
@@ -2159,6 +2249,29 @@
                                     </div>
                                 </form>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brook-call-to-action bg-color-f8a440 py-70 bg-as-text2 bg-style-text2">
+            <div class="container">
+                <div class="row align-item-center">
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <div class="call-content text-md-left">
+                            <h4 class="heading heading-h4 text-white">
+                                Sign up for new updates from us.
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <div class="text-md-right contact-form contact-form--4 color-f8a440">
+                            <form class="text-left m-0">
+                                <div class="input-box position-relative">
+                                    <input type="email" placeholder="Your e-mail" value="" class="newsLetterInput pr-129">
+                                    <button type="button">Subscribe</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
