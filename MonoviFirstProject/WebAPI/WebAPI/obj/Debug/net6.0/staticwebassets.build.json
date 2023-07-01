@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vk5XmXcaQdSEZ/r2MGtfdG64n5/TLDBIch/5xXU4MYU=",
+  "Hash": "DkCPjF4iotXdDKkPxT2gFv2aTXYKxix/1fs7+OdqiRg=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -2754,6 +2754,23 @@
       "OriginalItemSpec": "wwwroot\\CertificateDownload.pdf"
     },
     {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\CHRYSO.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "CHRYSO.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CHRYSO.png"
+    },
+    {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\compliance.png",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -4012,6 +4029,23 @@
       "OriginalItemSpec": "wwwroot\\download.jpg"
     },
     {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\eib.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "eib.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\eib.png"
+    },
+    {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\fabrika.jpg",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -4080,6 +4114,23 @@
       "OriginalItemSpec": "wwwroot\\IToutsourcing.png"
     },
     {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\ihkib.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "ihkib.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ihkib.png"
+    },
+    {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\innovation-technology-be-creativ.jpg",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -4097,6 +4148,23 @@
       "OriginalItemSpec": "wwwroot\\innovation-technology-be-creativ.jpg"
     },
     {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\izto.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "izto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\izto.jpg"
+    },
+    {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\js\\site.js",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -4112,6 +4180,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\jti.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "jti.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jti.png"
     },
     {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -5098,6 +5183,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.png"
+    },
+    {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\marnak.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "marnak.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\marnak.png"
     },
     {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\monovi.jpg",
@@ -34338,6 +34440,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\softwaredevelopment.png"
+    },
+    {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\tim.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "tim.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tim.png"
+    },
+    {
+      "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\univera.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "univera.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\univera.jpg"
     },
     {
       "Identity": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\Zilina_zapalkaren.jpg",

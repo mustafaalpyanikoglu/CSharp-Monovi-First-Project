@@ -189,6 +189,10 @@
       "PackagePath": "staticwebassets\\2.jpg"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\CHRYSO.png",
+      "PackagePath": "staticwebassets\\CHRYSO.png"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\CertificateDownload.pdf",
       "PackagePath": "staticwebassets\\CertificateDownload.pdf"
     },
@@ -945,6 +949,10 @@
       "PackagePath": "staticwebassets\\download.jpg"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\eib.png",
+      "PackagePath": "staticwebassets\\eib.png"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\fabrika.jpg",
       "PackagePath": "staticwebassets\\fabrika.jpg"
     },
@@ -957,12 +965,24 @@
       "PackagePath": "staticwebassets\\homepage.jpg"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\ihkib.png",
+      "PackagePath": "staticwebassets\\ihkib.png"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\innovation-technology-be-creativ.jpg",
       "PackagePath": "staticwebassets\\innovation-technology-be-creativ.jpg"
     },
     {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\izto.jpg",
+      "PackagePath": "staticwebassets\\izto.jpg"
+    },
+    {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\jti.png",
+      "PackagePath": "staticwebassets\\jti.png"
     },
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -1195,6 +1215,10 @@
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\login.png",
       "PackagePath": "staticwebassets\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\marnak.png",
+      "PackagePath": "staticwebassets\\marnak.png"
     },
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\monovi-logo (1).png",
@@ -8075,6 +8099,14 @@
     {
       "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\softwaredevelopment.png",
       "PackagePath": "staticwebassets\\softwaredevelopment.png"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\tim.png",
+      "PackagePath": "staticwebassets\\tim.png"
+    },
+    {
+      "Id": "C:\\Users\\malpy\\Desktop\\Yeni klasör (4)\\CSharp-Monovi-First-Project\\MonoviFirstProject\\WebAPI\\WebAPI\\wwwroot\\univera.jpg",
+      "PackagePath": "staticwebassets\\univera.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
