@@ -26,7 +26,6 @@
     <link rel="stylesheet" type="text/css" href="/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     
-    
     <style>
         body{
             font-size: 16px;
@@ -272,7 +271,8 @@
 
         .col, .col-2, .col-10, .col-xl-2, .col-lg-2, .col-5, 
         .col-7, .col-lg-4, .col-sm-6, .col-lg-12,
-        .col-xl-12, .col-lg-9, .col-12, .col-lg-6, .col-lg-12, .col-sm-12
+        .col-xl-12, .col-lg-9, .col-12, .col-lg-6, .col-lg-12, .col-sm-12,
+        .col-lg-3
         {
             position: relative;
             width: 100%;
@@ -1403,12 +1403,277 @@
             background-repeat: no-repeat;
             background-position: 50%;
         }
+
+        @@media (min-width: 768px)
+        .text-md-left {
+            text-align: left!important;
+        }
+
+        .align-items-center{
+            align-items: center!important;
+        }
+
+        /*Footer*/
+
+        .bg_color--000{
+            background: #000!important;
+        }
+
+        @@media only screen and (min-width: 1200px) and (max-width: 1599px)
+        {
+            .px-large-70{
+            padding-left: 70px!important;
+            padding-right: 70px!important;
+        }
+        }
+
+        @@media only screen and (min-width: 768px) and (max-width: 1199px)
+        {
+            .px-medium-50{
+            padding-left: 50px!important;
+            padding-right: 50px!important;
+        }
+        }
+
+        @@media only screen and (max-width: 767px)
+        {
+            .px-small-30{
+            padding-left: 30px!important;
+            padding-right: 30px!important;
+        }
+        }
+
+        @@media only screen and (min-width: 768px) and (max-width: 991px)
+        {
+            .py-medium-30 {
+                padding-bottom: 30px!important;
+                padding-top: 90px!important;
+            }
+        }
+
+        @@media only screen and (max-width: 767px) 
+        {
+            .pt-small-90 {
+            padding-top: 90px!important;
+            }
+            .pb-small-20 {
+                padding-bottom: 20px!important;
+            }
+
+        }
+        .pb-60{
+            padding-bottom: 60px;
+        }
+
+        .pt-150{
+            padding-top: 150px;
+        }
+        
+        .bg-color-EEEEEE{
+            background-color: rgb(238, 238, 238);
+
+        }
+
+        .mt-0{
+            margin-top: 0!important;
+        }
+
+        .border-0{
+            border: 0!important;
+        }
+
+        .bg-size-4{
+            background-size: 4px 4px;
+        }
+
+        .overflow-visible{
+            overflow: visible!important;
+        }
+
+        .box-sizing-content-box{
+            box-sizing: content-box!important;
+        }
+
+        @@media only screen and (max-width: 575px)
+        {
+            .mt-mobile-40 {
+                margin-top: 40px;
+            }
+        }
+
+        .footer-widget h2.widget-title {
+            font-size: 18px!important;
+            font-weight: 600!important;
+            line-height: 1.2!important;
+            color: #fff!important;
+            border-bottom-color: transparent!important;
+            font-family: 'Poppins', sans-serif!important;
+        }
+
+        .pb-13{
+            padding-bottom:13px!important;
+        }
+
+        .mb-19{
+            margin-bottom: 19px!important;
+        }
+
+        .footer-widget .footer-menu ul.ft-menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-widget .footer-menu ul.ft-menu-list li {
+            display: block;
+        }
+
+        .footer-widget .footer-menu ul.ft-menu-list li a {
+            color: #fff;
+            display: inline-block;
+            padding: 3px 0;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 2;
+            font-family: louis_george_caferegular;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+        }
+
+        .bk-hover a {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            display: inline-block;
+            color: #999;
+        }
+
+
+
+        .bk-hover a:after {
+            content: "";
+            width: 0;
+            height: 1px;
+            bottom: 0;
+            position: absolute;
+            left: 0;
+            right: auto;
+            background-color: white;
+            transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+
+
+        }
+
+        .footer-widget .footer-menu ul.ft-menu-list li a:hover:after {
+            width: 100%;
+            left: 0;
+            right: auto;
+        }
+
+        @@media only screen and (max-width: 767px)
+       {
+           .mt-small-40 {
+                margin-top: 40px;
+            }
+       }
+
+        a {
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+            color: #fff;
+        }
+
+        .mb-20{
+            margin-bottom:20px!important;
+        }
+
+        .mb-10{
+            margin-bottom: 10px!important;
+        }
+
+        .footer-widget .footer-address p {
+            word-wrap: break-word;
+            max-width: 100%;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 2;
+            font-family: louis_george_caferegular;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .footer-widget .footer-address p a {
+            padding: 4px 0;
+            line-height: 10px;
+            color: #fff;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+        }
+
+        .footer-widget .footer-address p a:hover:after {
+            width: 100%;
+            left: 0;
+            right: auto;
+        }
+
+        @@media (min-width: 768px)
+        {
+            .text-md-right {
+                text-align: right!important;
+            }
+        }
+
+        .copyright .copyright-right p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 2;
+            font-family: louis_george_caferegular;
+            color: #fff;
+            padding:0;
+        }
+
+        .social-share.social--transparent {
+            background: transparent;
+        }
+
+        .text-white {
+            color: #fff !important;
+        }
+
+        .social-share.text-white a {
+            color: #fff;
+        }
+
+        .social-share a {
+            display: inline-block;
+            transition: all .3s cubic-bezier(.645,.045,.355,1);
+            color: #222;
+            padding: 5px 13px;
+            font-size: 20px;
+        }
+
+        @@media only screen and (min-width: 1200px) and (max-width: 1599px)
+            {
+                .social-share a {
+                padding: 5px 8px;
+            }
+        }
+        
+        .py-50{
+            padding-top: 50px!important;
+            padding-bottom: 50px!important;
+        }
+
+        body .social-share a:hover {
+            color: #0038e3;
+        }
+        /*Footer*/
+
     </style>
 
 </head> 
 <body>
     @RenderBody()
-    <!-- Navbar
+    <!-- Navbar-->
     <header class="pt--15 header-fixed-width header-transparent header-default">
         <div class="container-fluid">
             <div class="row">
@@ -1809,8 +2074,6 @@
         </div>
         
     </header>
-    -->
-
     <!-- Navbar -->
     <!--Container-->
     <div class="main-container">
@@ -2257,14 +2520,14 @@
         <div class="brook-call-to-action bg-color-f8a440 py-70 bg-as-text2 bg-style-text2">
             <div class="container">
                 <div class="row align-item-center">
-                    <div class="col-lg-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-sm-12 col-12 px-15 d-flex align-items-center">
                         <div class="call-content text-md-left">
-                            <h4 class="heading heading-h4 text-white">
+                            <h4 class="heading heading-h4 text-white m-0">
                                 Sign up for new updates from us.
                             </h4>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-sm-12 col-12 px-15">
                         <div class="text-md-right contact-form contact-form--4 color-f8a440">
                             <form class="text-left m-0">
                                 <div class="input-box position-relative">
@@ -2279,8 +2542,155 @@
         </div>
     </div>
     <!--Container-->
-
     <!--Footer-->
+    <footer class="page-footer px-small-30 px-medium-50 px-large-70 bg_color--000 d-block">
+        <div class="bk-footer-inner pt-small-90 pb-small-20 pb-60 pt-150 py-medium-30">
+            <div class="row">
+                <div class="col-lg-3 mt-mobile-40">
+                    <div class="footer-widget menu-about">
+                        <h2 class="widget-title pb-13 mb-19">About</h2>
+                        <div class="footer-menu">
+                            <ul class="ft-menu-list bk-hover">
+                                <li>
+                                    <a href="#">PDPP & KVKK</a>
+                                </li>
+                                <li>
+                                    <a href="#">Incudemy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Open Positions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Insights</a>
+                                </li>
+                                <li>
+                                    <a href="#">Articles</a>
+                                </li>
+                                <li>
+                                    <a href="#">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Brands</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-mobile-40">
+                    <div class="footer-widget menu-about">
+                        <h2 class="widget-title pb-13 mb-19">Services</h2>
+                        <div class="footer-menu">
+                            <ul class="ft-menu-list bk-hover">
+                                <li>
+                                    <a href="#">Services Home Page</a>
+                                </li>
+                                <li>
+                                    <a href="#">Track&Trace and Compliance Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Managed IT Outsourcing Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Software Development and Maintenance</a>
+                                </li>
+                                <li>
+                                    <a href="#">Digital Factory & Supply Chain</a>
+                                </li>
+                                <li>
+                                    <a href="#">Remote IT Teams</a>
+                                </li>
+                                <li>
+                                    <a href="#">Application Support Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Business Process Outsourcing Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Data & Analytics</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consultancy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-mobile-40">
+                    <div class="footer-widget menu-about">
+                        <h2 class="widget-title pb-13 mb-19">Industries</h2>
+                        <div class="footer-menu">
+                            <ul class="ft-menu-list bk-hover">
+                                <li>
+                                    <a href="#">Tobacco</a>
+                                </li>
+                                <li>
+                                    <a href="#">Logistics & Transportation</a>
+                                </li>
+                                <li>
+                                    <a href="#">Manufacturing/FMCG</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-small-40">
+                    <div class="footer-widget menu-contact">
+                        <a href="#">
+                                <h2 class="widget-title">Contact Us</h2>
+                        </a>
+                        <div class="footer-address bk-hover mb-20">
+                            <p class="mb-10">Monovi Bilgi Teknolojileri Yayıncılık San. Tic. A.S. Gulbahce Mahallesi Teknopark Izmir Building A10 No:1/40 Office: 39 Urla 35430 İzmir / Turkey</p>
+                            <p class="mb-10">
+                                <a href="mailto:contact@monovi.com.tr">contact@monovi.com.tr</a>
+                            </p>
+                            <p class="mb-10">
+                                <a href="tel:+902325025645">+90 232 502 5645</a>
+                            </p>
+                            <p class="mb-10">
+                                <a href="tel:+90850304790">+90 850 3045790</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-color-EEEEEE mb-15 mt-0 p-0 border-0 bg-size-4 overflow-visible box-sizing-content-box" style="opacity: 0.5; height: 0.1px;" />
+        <div class="copyright py-50">
+            <div class="row align-items-center">
+                <div class="col-md-4 px-15">
+                    <div class="copyright-left text-left">
+                        <div class="footer-widget">
+                            <div class="logo">
+                                <a href="/" aria-current="page" class="active-link nuxt-link-active">
+                                    <img src="https://monovi.com.tr/img/logo/monovi-logo.png" width="230" height="230" class="logo" alt="MONOVI Logo" loading="lazy" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 px-15">
+                    <div class="copyright-right text-center text-md-right">
+                        <p>© 2023 <b>Monovi</b> All Rights Reserved. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 px-15">
+                    <div class="copyright-right text-center text-md-right">
+                            <div class="social-share social--transparent text-white">
+                            <a href="https://www.linkedin.com/company/monovi/mycompany/?viewAsMember=true" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/monoviteknoloji" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/monoviteknoloji/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!--Footer-->
     <script src="/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -2357,7 +2767,6 @@
             });
         });
     </script>
-
     <script>
         var formContainer = document.querySelector(".form-style--1");
         var inputs = formContainer.querySelectorAll("input");
