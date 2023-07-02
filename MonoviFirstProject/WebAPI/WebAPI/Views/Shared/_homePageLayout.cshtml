@@ -92,10 +92,24 @@
             position: absolute;
             max-width: none;
             min-width: 10em;
-            opacity: 0;
             border: none;
             padding: 70px 0;
+            opacity: 0;
+            visibility: hidden;
         }
+
+        li.nav-item.dropdown.lavel-1:hover > span.material-symbols-outlined,
+        li.nav-item.dropdown.lavel-1:hover > ul.dropdown-menu.mega__width--fullscreen {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        ul.dropdown-menu.mega__width--fullscreen .mega--title a.dropdown-item.text-white:hover {
+            opacity: 1;
+            visibility: visible;
+            animation-play-state: running;
+        }
+
 
         
 
@@ -719,6 +733,10 @@
             position: absolute;
             width: 100%;
             padding: 0 15px;
+        }
+
+        .dropdown-item:hover {
+            background-color: transparent !important;
         }
 
         .px-150{
@@ -1692,7 +1710,7 @@
                                     <ul class="mainmenu mt-0 navbar-nav d-flex ">
                                         <li class="nav-item dropdown lavel-1">
                                             <a href="#" class="pl--0 dropdown-item nav-link navbarFontFamily text-white p-41-9-41-0 position-relative ml-13">
-                                                <span class="button-icon">
+                                                <span key="1" class="button-icon">
                                                     About Us
                                                     <i class="fas fa-angle-down angle-down-icon"></i>
                                                 </span>
@@ -1770,7 +1788,7 @@
                                         </li>
                                         <li class="nav-item dropdown lavel-1">
                                             <a href="#" class="pl--0 dropdown-item nav-link navbarFontFamily text-white p-41-9-41-0 position-relative ml-13">
-                                                <span class="button-icon">
+                                                <span key="2" class="button-icon">
                                                     Services
                                                     <i class="fas fa-angle-down angle-down-icon"></i>
                                                 </span>
@@ -1942,7 +1960,7 @@
                                         </li>
                                         <li class="nav-item dropdown lavel-1">
                                             <a href="#" class="pl--0 dropdown-item nav-link navbarFontFamily text-white p-41-9-41-0 position-relative ml-13">
-                                                <span class="button-icon">
+                                                <span key="3" class="button-icon">
                                                     Career
                                                     <i class="fas fa-angle-down angle-down-icon"></i>
                                                 </span>
@@ -2006,7 +2024,7 @@
                                         </li>
                                         <li class="nav-item dropdown lavel-1">
                                             <a href="#" class="pl--0 dropdown-item nav-link navbarFontFamily text-white p-41-9-41-0 position-relative ml-13">
-                                                <span class="button-icon d-flex">
+                                                <span key="4" class="button-icon d-flex">
                                                     Insights
                                                     <i class="fas fa-angle-down angle-down-icon"></i>
                                                 </span>
@@ -2046,7 +2064,7 @@
                                         </li>
                                         <li class="nav-item dropdown lavel-1">
                                             <a href="#" class="pl--0 dropdown-item nav-link navbarFontFamily text-white p-41-9-41-0 position-relative ml-13">
-                                                <span class="button-icon">
+                                                <span key="5" class="button-icon">
                                                     Contact Us
                                                     <i class="fas fa-angle-down angle-down-icon"></i>
                                                 </span>
@@ -2058,8 +2076,8 @@
                                             </span>
                                             <ul class="dropdown-menu mega__width--fullscreen mega__list d-flex float-end">
                                                 <li class="mega--title mr--30">
-                                                    <a class="dropdown-item text-white " href="#">
-                                                        ENGLISH
+                                                    <a class="dropdown-item text-white " href="#" id="tr">
+                                                        TURKISH
                                                     </a>
                                                 </li>
                                             </ul>
@@ -2705,7 +2723,10 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script>
         // Navbar elementini seçin
         const navbar = document.querySelector('.header-default');
@@ -2796,5 +2817,55 @@
         });
     </script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--
+    <script>
+        $(document).ready(function () {
+    var arrLang = {
+        'tr': {
+            '0': 'Hakkımızda',
+            '1': 'Hizmetler',
+            '2': 'Ürünler',
+            '3': 'Kariyer',
+            '4': 'Incudemy',
+            '5': 'İçgörüler',
+            '6': 'Bize Ulaşın'
+        },
+        'en': {
+            '0': 'About Us',
+            '1': 'Services',
+            '2': 'Products',
+            '3': 'Career',
+            '4': 'Incudemy',
+            '5': 'Insights',
+            '6': 'Contact Us'
+        }
+    };
+
+    var lang = localStorage.getItem('dil');
+
+    if (lang === "en") {
+        $("#drop_yazı").html("English");
+    } else {
+        $("#drop_yazı").html("Türkçe");
+    }
+
+    $('a, h5, p, h1, h2, span, li, button, h3, label, div, input, textarea, img, ul, ol, table, tr, td, th, form, select, option, iframe').each(function (index, element) {
+        var key = $(this).attr('key');
+        if (key !== undefined && arrLang[lang][key] !== undefined) {
+            $(this).text(arrLang[lang][key]);
+        }
+    });
+
+    $('.dropdown-item').click(function (event) {
+        if (event.which === 1) { // Sol tıklama kontrolü
+            var lang = $(this).attr('id');
+            localStorage.setItem('dil', lang);
+            location.reload();
+        }
+    });
+});
+    </script>
+        -->
 </body>
 </html>
